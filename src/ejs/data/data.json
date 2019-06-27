@@ -1,0 +1,22 @@
+{
+ "data1": [
+  {
+   "title": "data1-1のタイトルです",
+   "description": "data1.jsonを更新すると、data.jsonが更新されます"
+  },
+  {
+   "title": "data1-2のタイトルです",
+   "description": "data1-2の内容data1-2の内容data1-2の内容data1-2の内容data1-2の内容data1-2の内容"
+  }
+ ],
+ "data2": [
+  {
+   "title": "data2のタイトル",
+   "description": "data2の内容data2の内容data2の内容data2の内容data2の内容data2の内容"
+  },
+  {
+   "title": "data2-2のタイトルです",
+   "description": "data2-2の内容data2-2の内容data2-2の内容data2-2の内容data2-2の内容data2-2の内容"
+  }
+ ]
+}

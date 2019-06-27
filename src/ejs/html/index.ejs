@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<% include ../include/meta %>
+</head>
+<body>
+    <% include ../include/header %>
+    <main>
+        <h1>jsonで管理する情報</h1>
+        <section>
+            <h2>data1</h2>
+            <ul>
+                <li>タイトル：<%= data1[0].title %></li>
+                <li>概要：<%= data1[0].description %></li>
+            </ul>
+        </section>
+        <section>
+            <h2>data2</h2>
+<% for(var i = 0; i < data2.length; i++) { %>
+            <ul>
+                <li>タイトル：<%= data2[i].title %></li>
+                <li>概要：<%= data2[i].description %></li>
+            </ul>
+<% } %>
+        </section>
+    </main>
+    <% include ../include/footer %>
+</body>
+</html>
